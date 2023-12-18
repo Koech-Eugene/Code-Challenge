@@ -1,16 +1,31 @@
-function speedDetector(speed){
-    const speedLimit = 70
-    const overSpeed = 5
-    if (speed <= 70){
-        return "Ok"
+
+function speeddetector(speed){
+    const limit = 70
+    const over = 5
+    if (speed <= limit){
+        return "OK"
     }
     else{
-        const demerit = (speed - speedLimit)/overSpeed
-        if (demerit > 12){
-            return "License suspended."
-        }else{
-            return `points: ${demerit}`
+        const Demerit = (speed-limit)/over
+        if(Demerit > 12 ){
+            return "License suspended"
+        }
+        else{
+            return `points: ${Demerit}`
         }
     }
 }
-console.log(speedDetector(80))
+console.log(speeddetector(131))
+
+
+
+
+
+
+
+
+
+
+
+
+
