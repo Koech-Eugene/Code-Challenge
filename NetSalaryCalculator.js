@@ -54,5 +54,5 @@ function salary(basicSalary, benefits){
         NET_SALARY:netSalary
     }
 }
-
+//test case using console.log
 console.log(salary(100000, 20000))
